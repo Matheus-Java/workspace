@@ -5,6 +5,7 @@
 * [Composer](https://getcomposer.org/download/)
 * [Fira Code (Fonte)](https://github.com/tonsky/FiraCode)
 * [Git](https://git-scm.com/download/win)
+* [Insomnia](https://insomnia.rest/download)
 * [Laragon](https://laragon.org/download/index.html)
 * [Node.js](https://nodejs.org/en/download/)
 * [Visual Studio Code (Editor de código)](https://code.visualstudio.com/download)
