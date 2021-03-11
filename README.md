@@ -16,7 +16,7 @@ Instale o **Windows Terminal** [click aqui](https://www.microsoft.com/pt-br/p/wi
 Altere o cursor do mouse do windows baixando os arquivos na pasta **cursor-windows**.
 
 ##### Configurando o Editor de Código:
-Abra o **Settings.json** do VSCode e copie e cole as settings do arquivo no repositório**Settings.json**.
+Abra o **Settings.json** do VSCode e copie e cole as settings do arquivo no repositório **Settings.json**.
 
 ###### Extensões do VSCode:
 * Better Comments
@@ -36,3 +36,4 @@ Abra o **Settings.json** do VSCode e copie e cole as settings do arquivo no repo
 * PHP Extension Pack
 * PHP Intellisense
 * Vetur
+* WataTime
