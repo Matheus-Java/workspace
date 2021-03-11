@@ -1,0 +1,113 @@
+{
+     Temas do editor e icons.
+    workbench.iconTheme material-icon-theme,
+    workbench.colorTheme Monokai Night,
+
+     Configuração da fonte.
+    editor.fontFamily Fira Code,
+    editor.fontLigatures true,
+    editor.fontWeight 600,
+    editor.fontSize 14,
+
+     Formatação do Editor.
+    editor.renderLineHighlight all,
+    editor.formatOnSave false,
+    editor.rulers [
+        90,
+        120
+    ],
+     Configurações do terminal
+    terminal.integrated.windowsEnableConpty false,
+    terminal.integrated.shell.windows CProgram FilesGitbinbash.exe,
+    terminal.integrated.shell.osx binzsh,
+    terminal.integrated.fontSize 14, 
+
+      Configuração do Emmet
+    emmet.syntaxProfiles {
+        javascript jsx,
+    },
+    emmet.includeLanguages {
+        javascript javascriptreact,
+        blade html
+    },
+    emmet.triggerExpansionOnTab true,
+    files.autoSave off,
+
+     ======= Linguagens ==========
+
+     Configurações do PHP
+    php.validate.executablePath Dlaragonbinphpphp-7.2.19-Win32-VC15-x64php.exe,
+    php.executablePath Dlaragonbinphpphp-7.2.19-Win32-VC15-x64php.exe,
+
+     Larave Blade 
+    blade.format.enable true,
+    [blade] {
+    editor.autoClosingBrackets always,
+    editor.defaultFormatter amirmarmul.laravel-blade-vscode
+    },
+
+    
+     Configuração do GitLens.
+    gitlens.codeLens.recentChange.enabled true,
+    gitlens.codeLens.authors.enabled true,
+    breadcrumbs.enabled true,
+    git.enableSmartCommit true,
+    gitlens.defaultDateFormat DDMMYY,
+    gitlens.defaultDateShortFormat DDMMYY,
+    
+      Bracket Pair
+    bracketPairColorizer.forceIterationColorCycle true,
+    bracketPairColorizer.forceUniqueOpeningColor true,
+    bracketPairColorizer.colorMode Consecutive,
+
+     Configurção dos Comentarios
+    better-comments.multilineComments true,
+    better-comments.highlightPlainText false,
+    better-comments.tags [
+        {
+            tag !,
+            color #FF2D00,
+            strikethrough false,
+            underline false,
+            backgroundColor transparent,
+            bold false,
+            italic false
+        },
+        {
+            tag ,
+            color #3498DB,
+            strikethrough false,
+            underline false,
+            backgroundColor transparent,
+            bold false,
+            italic false
+        },
+        {
+            tag ,
+            color #474747,
+            strikethrough true,
+            underline false,
+            backgroundColor transparent,
+            bold false,
+            italic false
+        },
+        {
+            tag todo,
+            color #FF8C00,
+            strikethrough false,
+            underline false,
+            backgroundColor transparent,
+            bold false,
+            italic false
+        },
+        {
+            tag ,
+            color #98C379,
+            strikethrough false,
+            underline false,
+            backgroundColor transparent,
+            bold false,
+            italic false
+        }
+    ],
+}
